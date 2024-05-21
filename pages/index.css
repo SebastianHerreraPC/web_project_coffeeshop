@@ -188,3 +188,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.reservation {
+  background-image: url(/images/background_reservation.svg);
+  background-size: cover;
+}

@@ -94,7 +94,28 @@
             </div>
           </div>
         </section>
-        <section class="reservation" id="Reservar"></section>
+        <section class="reservation" id="Reservar">
+          <p class="reservation__title">Reservar una mesa</p>
+          <form action="" class="reservation__form form">
+            <fieldset class="form form__fieldset">
+              <label for="Nombre" class="label form__label">Nombre</label>
+              <input id="Nombre" type="text" class="form__input" />
+              <label for="comensales" class="label form__label"
+                >Número de comensales
+              </label>
+              <input id="comensales" class="form__input" />
+              <label for="date" class="label form__label">Fecha y hora</label>
+              <input id="date" type="datetime-local" class="form__input" />
+              <label for="email" class="label form__label"
+                >Tu correo electrónico</label
+              >
+              <input id="email" type="email" class="form__input" />
+            </fieldset>
+            <button class="button__fieldset">Reservar una mesa</button>
+            <input id="checkbox" type="checkbox" class="input input__label" />
+            <label for="checkbox"></label>
+          </form>
+        </section>
         <section class="menu" id="Menu"></section>
         <section class="about" id="Contacto"></section>
       </main>
