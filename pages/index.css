@@ -201,7 +201,6 @@
 .reservation__title {
   margin-top: 100px;
   margin-bottom: 80px;
-
   font-family: Inter;
   font-style: normal;
   font-weight: 500;
@@ -250,6 +249,7 @@
 }
 .button__fieldset {
   height: 60px;
+  width: 100%;
   margin: 32px 0;
   border-radius: 4px;
   border: none;
