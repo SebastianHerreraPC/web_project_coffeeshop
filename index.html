@@ -98,26 +98,36 @@
           <p class="reservation__title">Reservar una mesa</p>
           <form action="" class="reservation__form form">
             <fieldset class="form form__fieldset">
-              <label for="Nombre" class="label form__label">Nombre</label>
-              <input id="Nombre" type="text" class="form__input" />
+              <label for="Nombre" class="label form__label">Nombre* </label>
+              <input
+                id="Nombre"
+                type="text"
+                class="form__input"
+                placeholder="Nombre Apellido"
+              />
               <label for="comensales" class="label form__label"
-                >Número de comensales
+                >Número de comensales*
               </label>
-              <input id="comensales" class="form__input" />
-              <label for="date" class="label form__label">Fecha y hora</label>
+              <input id="comensales" class="form__input" placeholder="1-8" />
+              <label for="date" class="label form__label">Fecha y hora*</label>
               <input id="date" type="datetime-local" class="form__input" />
               <label for="email" class="label form__label"
-                >Tu correo electrónico</label
+                >Tu correo electrónico*</label
               >
-              <input id="email" type="email" class="form__input" />
+              <input
+                id="email"
+                type="email"
+                class="form__input"
+                placeholder="email@email.com"
+              />
             </fieldset>
             <button class="button__fieldset">Reservar una mesa</button>
 
-            <label for="checkbox">
+            <label for="checkbox" class="checkbox">
               <input
                 id="checkbox"
                 type="checkbox"
-                class="input input__label"
+                class="input input__label input__checkbox"
               />Acepto los términos de uso</label
             >
           </form>
