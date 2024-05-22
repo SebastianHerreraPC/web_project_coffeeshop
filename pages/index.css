@@ -268,12 +268,19 @@
 .label {
   display: flex;
 }
-.checkbox {
+.button {
+}
+.button__checkbox {
+  border: 1px solid red;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.input__checkbox {
+.button__label-checkbox {
+  display: flex;
+  align-items: center;
+}
+.button__input {
   border-radius: 2px;
   width: 20px;
   height: 20px;
