@@ -52,17 +52,13 @@
 .card__list-item {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-
+  align-items: baseline;
   margin-bottom: 16px;
 }
 
 .card__list-divider {
   content: "";
   flex: 1;
-  border-bottom: 1px dotted black;
+  border-bottom: 1px solid black;
   margin: 0 10px;
-}
-.card__list-divider {
-  border-bottom: 1px solid red;
 }
