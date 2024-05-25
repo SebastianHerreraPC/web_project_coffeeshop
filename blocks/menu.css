@@ -63,7 +63,7 @@
   padding: 0;
   margin-left: 0;
 }
-.card__list-item {
+.menu__card-list-item {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -75,7 +75,7 @@
   line-height: 20px;
 }
 
-.card__list-divider {
+.menu__card__list-divider {
   flex: 1;
   border-bottom: 1px solid black;
   margin: 0 10px;
