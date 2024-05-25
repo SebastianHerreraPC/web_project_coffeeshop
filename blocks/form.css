@@ -4,9 +4,12 @@
   flex-direction: column;
   justify-content: center;
   margin: auto;
+  margin-bottom: 120px;
+  border: 1px solid red;
 }
 .form__fieldset {
   padding: 0;
+  margin-bottom: 0px;
 }
 .form__label {
   margin-top: 0px;
