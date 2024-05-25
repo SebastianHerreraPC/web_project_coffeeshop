@@ -1,10 +1,49 @@
 .about {
+  position: relative;
+  overflow: hidden;
+  background-color: #0a2850;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  row-gap: 100px;
 }
 .about__title {
+  margin: 100px auto auto 80px;
+  max-width: 251px;
+  z-index: 1;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 .about__content {
+  display: flex;
+  flex-direction: column;
+  margin: 119px 80px 173px auto;
+  max-width: 660px;
 }
 .about__paragraph {
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 20px;
+  line-height: 30px;
+}
+.about__paragraph:last-child {
+  margin-bottom: 0;
 }
 .about__circle {
+  position: absolute;
+  left: -129px;
+  top: -152px;
+  z-index: 0;
+  width: 426px;
+  height: 426px;
+  background-color: #2f80ed;
+  border-radius: 50%;
 }

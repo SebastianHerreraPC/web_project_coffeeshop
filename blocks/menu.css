@@ -3,6 +3,10 @@
   background-image: url(/images/background_menu.svg);
   display: flex;
   flex-direction: column;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
 }
 .menu__title {
   max-width: 780px;
@@ -10,14 +14,23 @@
   align-items: center;
   margin: 100px auto 0;
 
-  border: 1px solid red;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
 }
 .menu__subtitle {
   max-width: 780px;
   justify-content: center;
   align-items: center;
   margin: 24px auto 0;
-  border: 1px solid red;
+
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
 }
 .menu__cards {
   display: flex;
@@ -26,37 +39,40 @@
   justify-content: center;
   margin: 100px auto;
   padding: 0;
-  border: 1px solid red;
 }
 .menu__card {
   margin-top: 0;
-  width: 640px;
-  border: 1px solid red;
+  width: 540px;
 }
 .menu__card:first-of-type {
   margin-right: 100px;
-  border: 1px solid red;
 }
 .menu__card:last-of-type {
   margin-top: 100px;
-
-  border: 1px solid red;
 }
 .menu__card-title {
   margin: 0 auto 32px;
-  border: 1px solid red;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
 }
-.menu__card-list-items {
+.card__list-items {
   list-style: none;
   padding: 0;
   margin-left: 0;
-  border: 1px solid red;
 }
 .card__list-item {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
   margin-bottom: 16px;
+  font-family: "Noto Serif";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 .card__list-divider {
