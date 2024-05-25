@@ -56,13 +56,3 @@
   font-size: 20px;
   line-height: 30px;
 }
-
-.a {
-  display: flex;
-  gap: 40px;
-}
-.b {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
