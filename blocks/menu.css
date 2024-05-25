@@ -47,6 +47,9 @@
   border: 1px solid red;
 }
 .menu__card-list-items {
+  list-style: none;
+  padding: 0;
+  margin-left: 0;
   border: 1px solid red;
 }
 .card__list-item {
