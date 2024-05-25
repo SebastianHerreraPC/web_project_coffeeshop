@@ -75,7 +75,7 @@
   line-height: 20px;
 }
 
-.menu__card__list-divider {
+.menu__card-list-divider {
   flex: 1;
   border-bottom: 1px solid black;
   margin: 0 10px;
